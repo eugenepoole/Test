@@ -43,6 +43,7 @@ namespace ProcessManager_
         public static void Method()
         {
             int i = 0;
+            int j = 23;
         }
     }
 }
