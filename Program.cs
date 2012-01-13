@@ -34,7 +34,8 @@ namespace ProcessManager_
         public static int AnotherMethod()
         {
             int l = 0;
-            for (int j = 0; j < 23; j++) l++;
+            int j = 23;
+            for (int j = 0; j < 23; j++) l++; j += 5;
             return l;
         }
         ///
