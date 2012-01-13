@@ -37,5 +37,12 @@ namespace ProcessManager_
             for (int j = 0; j < 23; j++) l++;
             return l;
         }
+        ///
+        /// Just added this as a test
+        /// </summary>
+        public static void Method()
+        {
+            int i = 0;
+        }
     }
 }
