@@ -26,5 +26,13 @@ namespace ProcessManager_
             else if (IPAddress.Equals(hostAddress, IPAddress.Parse("192.198.0.2"))) System.Windows.Forms.Application.Run(new TemporaryLibrary.Station.ProcessManager("tcp://192.198.0.2:" + RupanRoy.Systems.Applications.Defaults.LoadBalancerPortNumber.ToString() + "/" + LoadBalancer.DEFAULT_URI, true));
             else if (IPAddress.Equals(hostAddress, IPAddress.Parse("192.198.0.10"))) System.Windows.Forms.Application.Run(new TemporaryLibrary.Station.ProcessManager("tcp://192.198.0.10:" + RupanRoy.Systems.Applications.Defaults.LoadBalancerPortNumber.ToString() + "/" + LoadBalancer.DEFAULT_URI, true));
         }
+
+        /// <summary>
+        /// Just added this as a test
+        /// </summary>
+        public static void Method()
+        {
+            int i = 0;
+        }
     }
 }
